@@ -22,7 +22,6 @@ class MyEmployeeAdapter : RecyclerView.Adapter<MyEmployeeAdapter.EmpViewHolder>(
                 age.text = employeeData.age
                 phone.text = employeeData.mobile
                 phone.text = employeeData.mobile
-                phone.text = employeeData.mobile
 
             }
 
