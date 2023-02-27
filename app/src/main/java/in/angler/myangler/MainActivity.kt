@@ -15,12 +15,10 @@ class MainActivity : AppCompatActivity() {
     private var empList= mutableListOf<EmployeeData>()
     private  var searchId="0"
     val searchList = mutableListOf<EmployeeData>()
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding= ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
 
         setData()
         binding.searchView.doOnTextChanged { text, start, before, count ->
