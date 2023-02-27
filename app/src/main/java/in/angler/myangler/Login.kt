@@ -26,11 +26,8 @@ class Login : AppCompatActivity() {
                 val userNameInput: String = binding.userName.text.toString()
                 val passwordInput: String = binding.password.text.toString()
 
-
-
                 binding.login.isEnabled =
                     userNameInput.isNotEmpty() && userNameInput.length >= 6 && passwordInput.isNotEmpty() && passwordInput.length >= 6
-
 
             }
 
